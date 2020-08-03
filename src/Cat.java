@@ -16,6 +16,14 @@ public class Cat
 
     }
 
+    public double minWeight() {
+        return minWeight;
+}
+
+    public double maxWeight() {
+        return maxWeight;
+    }
+
     public void meow()
     {
         weight = weight - 1;

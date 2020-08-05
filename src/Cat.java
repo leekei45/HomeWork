@@ -30,6 +30,17 @@ public class Cat
         System.out.println("Meow");
     }
 
+    public Double getFoodWheigh() {
+        Double result = weight - originWeight;
+        return (result < 0) ? 0 : result;
+    }
+
+    public void pee()
+    {
+        weight = weight - (weight * .05);
+        System.out.println("...");
+    }
+
     public void feed(Double amount)
     {
         weight = weight + amount;

@@ -16,10 +16,15 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3566954-15db-468d-82d7-9b60a8957e26" name="Default" comment="">
+    <list default="true" id="d3566954-15db-468d-82d7-9b60a8957e26" name="Default" comment="3 модуль, 1 дз">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Cat/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cat/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Cat/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cat/Loader.class" afterDir="false" />
@@ -55,7 +60,7 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Cat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../skillboxLesson03Task01_Cats-be9ca68f72c7926a7d96610f03088ec6138b4913" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -170,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1440574635454</updated>
     </task>
+    <task id="LOCAL-00001" summary="3 модуль, 1 дз">
+      <created>1596467224218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596467224218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,27 +205,47 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3 модуль, 1 дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 модуль, 1 дз" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1596466846249">
+    <state x="392" y="71" key="#Plugins" timestamp="1596632638954">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1596466846249" />
-    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1596466527076">
+    <state x="392" y="71" key="#Plugins/0.0.1600.860@0.0.1600.860" timestamp="1596632638954" />
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596631865283">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596466527076" />
-    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1596466527076">
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1596631865283" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1596467362721">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1596466527076" />
-    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1596466527075">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1596467362721" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1596635866122">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1596466527075" />
-    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1596466527076">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1596635866122" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1596637440930">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1596466527076" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596637440930" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1596637440930">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1596637440930" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1596637440930">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1596637440930" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1596637440930">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1596637440930" />
+    <state x="460" y="164" key="VcsDiffUtil.ChangesDialog" timestamp="1596467359463">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="460" y="164" key="VcsDiffUtil.ChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1596467359463" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

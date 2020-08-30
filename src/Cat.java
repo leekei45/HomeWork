@@ -10,6 +10,8 @@ public class Cat
     private static final double MIN_WEIGHT = 1000.0;
     private static final double MAX_WEIGHT= 9000.0;
     private static Integer count = 0;
+    private  double minWeight;
+    private  double maxWeight;
 
     public Cat()
     {
@@ -18,6 +20,13 @@ public class Cat
         originWeight = weight;
 
 
+
+    }
+
+
+    public Cat (double weight)
+    {
+        this.weight = weight;
 
     }
 

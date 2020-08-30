@@ -5,9 +5,10 @@ public class Cat
     private double weight;
     private double weightPlus;
     private double result;
+    public static final int NUMBER_OF_EYES = 2;
 
-    private double minWeight;
-    private double maxWeight;
+    private static final double MIN_WEIGHT = 1000.0;
+    private static final double MAX_WEIGHT= 9000.0;
     private static Integer count = 0;
 
     public Cat()
@@ -15,8 +16,8 @@ public class Cat
         count++;
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
+
+
 
     }
 
@@ -25,11 +26,11 @@ public class Cat
     }
 
     public double minWeight() {
-        return minWeight;
+        return MIN_WEIGHT;
 }
 
     public double maxWeight() {
-        return maxWeight;
+        return MAX_WEIGHT;
     }
 
     public void meow()
@@ -67,11 +68,11 @@ public class Cat
 
     public String getStatus()
     {
-        if(weight < minWeight) {
+        if(weight < MIN_WEIGHT) {
             count--;
             return "Dead";
         }
-        else if(weight > maxWeight) {
+        else if(weight > MAX_WEIGHT) {
             count--;
             return "Exploded";
         }

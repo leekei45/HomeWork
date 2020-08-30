@@ -8,14 +8,20 @@ public class Cat
 
     private double minWeight;
     private double maxWeight;
+    private static Integer count = 0;
 
     public Cat()
     {
+        count++;
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
         minWeight = 1000.0;
         maxWeight = 9000.0;
 
+    }
+
+    public static Integer getCount() {
+        return count;
     }
 
     public double minWeight() {
@@ -62,9 +68,11 @@ public class Cat
     public String getStatus()
     {
         if(weight < minWeight) {
+            count--;
             return "Dead";
         }
         else if(weight > maxWeight) {
+            count--;
             return "Exploded";
         }
         else if(weight > originWeight) {

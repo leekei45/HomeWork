@@ -6,6 +6,8 @@ public class Cat
     private double weightPlus;
     private double result;
     public static final int NUMBER_OF_EYES = 2;
+    private String  color;
+
 
     private static final double MIN_WEIGHT = 1000.0;
     private static final double MAX_WEIGHT= 9000.0;
@@ -23,7 +25,13 @@ public class Cat
 
     }
 
+    public void setColor (String color){
 
+         this.color = color;
+    }
+     public String getColor (){
+        return color;
+     }
     public Cat (double weight)
     {
         this.weight = weight;

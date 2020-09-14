@@ -44,8 +44,15 @@ public class Cat
 
     public void meow()
     {
-        weight = weight - 1;
-        System.out.println("Meow");
+        if (weight > minWeight) {
+            weight = weight - 1;
+            System.out.println("Meow");
+            if (weight <= minWeight) {
+                getStatus();
+                count--;
+            }
+        }
+        else {getStatus();}
     }
 
     public double getFoodWheigh() {
@@ -54,20 +61,43 @@ public class Cat
 
     public void pee()
     {
-        weight = weight - (weight * .05);
-        System.out.println("...");
+        if (weight > minWeight) {
+            weight = weight - (weight * .05);
+            System.out.println("...");
+             if (weight <= minWeight) {
+             getStatus();
+             count--;
+            }
+        }
+        else {getStatus();}
     }
 
     public void feed(Double amount)
     {
-        weight = weight + amount;
-        weightPlus = amount;
-        result = result + weightPlus;
+        if (weight > minWeight) {
+            weight = weight + amount;
+            weightPlus = amount;
+            result = result + weightPlus;
+            if (weight <= minWeight) {
+                getStatus();
+                count--;
+            }
+        }
+        else {getStatus();}
     }
 
     public void drink(Double amount)
     {
-        weight = weight + amount;
+        if (weight > minWeight) {
+            weight = weight + amount;
+            weightPlus = amount;
+            result = result + weightPlus;
+            if (weight <= minWeight) {
+                getStatus();
+                count--;
+            }
+        }
+        else {getStatus();}
     }
 
     public Double getWeight()
@@ -78,11 +108,11 @@ public class Cat
     public String getStatus()
     {
         if(weight < MIN_WEIGHT) {
-            count--;
+
             return "Dead";
         }
         else if(weight > MAX_WEIGHT) {
-            count--;
+
             return "Exploded";
         }
         else if(weight > originWeight) {

@@ -20,9 +20,6 @@ public class Cat
         count++;
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
-
-
-
     }
 
     public void setColor (String color){
@@ -129,5 +126,12 @@ public class Cat
         else {
             return "Playing";
         }
+    }
+    public Cat clon (){
+        Cat clon = new Cat(this.weight);
+        clon.originWeight = this.originWeight;
+        clon.minWeight = this.minWeight;
+        clon.maxWeight = this.maxWeight;
+        return clon;
     }
 }

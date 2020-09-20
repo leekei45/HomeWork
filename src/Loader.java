@@ -7,7 +7,11 @@ public class Loader {
             int n = (int) (Math.random() * 9);
 
             System.out.println(name[n] + ": " + cat.getWeight() + " грамм");
-            System.out.println(getKitten());
+
+
+            Cat cat2 = cat.clon();
+        System.out.println(name[n] + ": " + cat.getWeight() + " грамм");
+
 
     }
     public static Cat getKitten() {
